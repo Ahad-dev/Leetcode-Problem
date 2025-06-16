@@ -73,25 +73,25 @@ public:
     }
 };
 
-
-int main() {
-	Solution solution;
-	ListNode* l1 = new ListNode(9, new ListNode(9, new ListNode(9, new ListNode(9, new ListNode(9, new ListNode(9, new ListNode(9)))))));
-	ListNode* l2 = new ListNode(9, new ListNode(9, new ListNode(9,new ListNode(9))));
-	ListNode* result = solution.addTwoNumbers(l1, l2);
-	// Print the result
-	while (result) {
-		cout << result->val << " ";
-		result = result->next;
-	}
-	cout << endl;
-	// Clean up memory
-	delete l1->next->next;
-	delete l1->next;
-	delete l1;
-	delete l2->next->next;
-	delete l2->next;
-	delete l2;
-
-	return 0;
-}
+//
+//int main() {
+//	Solution solution;
+//	ListNode* l1 = new ListNode(9, new ListNode(9, new ListNode(9, new ListNode(9, new ListNode(9, new ListNode(9, new ListNode(9)))))));
+//	ListNode* l2 = new ListNode(9, new ListNode(9, new ListNode(9,new ListNode(9))));
+//	ListNode* result = solution.addTwoNumbers(l1, l2);
+//	// Print the result
+//	while (result) {
+//		cout << result->val << " ";
+//		result = result->next;
+//	}
+//	cout << endl;
+//	// Clean up memory
+//	delete l1->next->next;
+//	delete l1->next;
+//	delete l1;
+//	delete l2->next->next;
+//	delete l2->next;
+//	delete l2;
+//
+//	return 0;
+//}

@@ -129,6 +129,7 @@
   <ItemGroup>
     <ClCompile Include="..\..\..\..\LeetCode Problems\LeetCode Problems\1.TwoSums.cpp" />
     <ClCompile Include="2.AddTwoNumbers.cpp" />
+    <ClCompile Include="ReverseInteger.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

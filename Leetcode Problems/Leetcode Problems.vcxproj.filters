@@ -21,5 +21,8 @@
     <ClCompile Include="..\..\..\..\LeetCode Problems\LeetCode Problems\1.TwoSums.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="ReverseInteger.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
